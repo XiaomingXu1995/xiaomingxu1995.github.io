@@ -1,12 +1,8 @@
-## this is my first blog page.
+# Linux的基本操作
 
-### linux 
+## [命令行基本操作](https://xiaomingxu1995.github.io/linux/shell
 
-	Linux的基本操作
 
-### hpc
-
-	高性能相关知识
 
 
 
