@@ -6,7 +6,8 @@
 * 申请分配内存之后要记得释放，new配合delete， malloc配合free. 
 
 ### 计时函数
-c++计时函数及使用样例。
+c++计时函数及使用样例。[参考手册](https://pubs.opengroup.org/onlinepubs/7908799/xsh/systime.h.html)
+
 ```cpp
 #include <sys/time.h>
 double get_sec(){
