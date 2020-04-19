@@ -7,7 +7,8 @@
 	
 ### 计时函数
 	//c++计时函数
-	```c++
+	
+	```cplusplus
 	#include <sys/time.h>
 	double get_sec(){
 		struct timeval tv;
