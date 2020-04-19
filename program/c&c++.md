@@ -6,19 +6,18 @@
     申请分配内存之后要记得释放，new配合delete， malloc配合free.
 	
 ### 计时函数
-	//c++计时函数
+c++计时函数及使用样例。
+```cpp
+#include <sys/time.h>
+double get_sec(){
+	struct timeval tv;
+	gettimeofday(&tv, NULL);
+	return (double)tv.tv_sec + (double)tv.tv_usec/1000000;
+}
 	
-	```cpp
-	#include <sys/time.h>
-	double get_sec(){
-		struct timeval tv;
-		gettimeofday(&tv, NULL);
-		return (double)tv.tv_sec + (double)tv.tv_usec/1000000;
-	}
-	
-	double t1 = get_sec();
-	//run the code needing to test
-	double t2 = get_sec();
-	std::cout << "the time of running the code is: " << t2 - t1 << std::endl;
+double t1 = get_sec();
+//run the code needing to test
+double t2 = get_sec();
+std::cout << "the time of running the code is: " << t2 - t1 << std::endl;
 ```
 
