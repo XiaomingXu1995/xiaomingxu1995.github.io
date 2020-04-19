@@ -8,8 +8,7 @@
 ### 计时函数
 	//c++计时函数
 	
-	```c
-	
+	```cpp
 	#include <sys/time.h>
 	double get_sec(){
 		struct timeval tv;
@@ -21,6 +20,5 @@
 	//run the code needing to test
 	double t2 = get_sec();
 	std::cout << "the time of running the code is: " << t2 - t1 << std::endl;
-	
 ```
 
