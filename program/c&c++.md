@@ -5,7 +5,7 @@
 * [代码规范和习惯](#代码规范和习惯)   
 * [计时函数](#计时函数)   
 * [有关编码的问题](#有关编码的问题)
-
+* [函数指针](#函数指针)
 ### 代码规范和习惯
 * 变量和函数的命名要直观合理，不要模棱两可。
 * 申请分配内存之后要记得释放，new配合delete， malloc配合free. 
@@ -44,4 +44,20 @@ int main(){
 	$ ./main
 	$ 明
 
+### 函数指针
+函数指针指向某一种特定的函数，函数的输入参数类型和返回值类型确定，函数名不确定，例如：以下声明一个指向传入参数为两个`int`, 返回值为一个`int`的函数指针`func`。
+```cpp
+int (* func) (int, int);//declaration
+int add(int a, int b){
+	return a + b;
+}
+int sub(int a, int b){
+	return a - b;
+}
 
+func = add;//assignment
+func = sub;//assignment
+```
+声明函数`int (* func) (int, int)`中，`(* func)`代表这是一个函数指针，前边`int`表示该函数指针所指向函数的返回值为`int`类型，后边的`(int, int)`表示该函数指针所指向函数的传入参数类型。
+
+**注意：`(* func)`的括号不可以省略，否则`int * func(int, int)`表示声明一个返回值为`int *`的函数，而非声明函数指针。**
