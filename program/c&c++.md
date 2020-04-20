@@ -21,4 +21,17 @@ double t1 = get_sec();
 double t2 = get_sec();
 std::cout << "the time of running the code is: " << t2 - t1 << std::endl;
 ```
+### 有关编码的问题
+c++或者c向输出流输出一些字符流，终端按照自己的编码方式查到对应的字符，将对应的字符显示出来，显示字体和字体库有关。[参考链接](https://www.zhihu.com/question/388125082/answer/1163293642)
 
+Linux 终端默认utf-8解码，例如，“明”这个字的utf-8编码是：\xe6\x98\x8e，在 [Unicode Decoder](https://www.branah.com/unicode-converter) 上可以查询相关的字符解码。那么，可以有如下操作：
+```cpp
+#include <stdio.h>
+
+int main(){
+	char arr[4] = {0xe6, 0x98, 0x8e, 0x00};//0x00 is byte array ending position.
+	printf("%s\n", arr);
+	return 0;
+}
+```
+上面运行结果就会在终端输出汉字“明” 。
