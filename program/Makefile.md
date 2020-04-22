@@ -1,12 +1,12 @@
-## 0.1. Makefile的相关规则
+## Makefile的相关规则
 Makefile的基本规则只有两点：
 * 依赖
 * 时间戳
 
 理解好Makefile的工作原理，需要了解一些编译和链接的内容，建议去阅读《程序员的自我修养——链接、装载与库》。
-### 0.1.1. 基本假设：
+### 基本假设：
 源文件为 `hello.cpp main.cpp hello.h`，main.cpp 中调用hello.cpp的函数。
-### 0.1.2. version 1
+### version 1
 ```
 1:  main: main.o hello.o
 2:      g++ main.o hello.o -o main
