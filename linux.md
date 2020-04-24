@@ -6,7 +6,7 @@
  
 ### vim
 #### [vim的基本操作](https://xiaomingxu1995.github.io/linux/vim)
-#### [vim的高级操作](https://xiaomingxu1995.github.io/linux/vim)
+
 
 ### tmux
 #### [tmux的相关操作](https://xiaomingxu1995.github.io/linux/tmux)
