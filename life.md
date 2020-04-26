@@ -1,6 +1,6 @@
 ## everyday life
 
-### habits
+### [habits](https://xiaomingxu1995.github.io/life/habits)
 
-### travelling
+### [travelling](https://xiaomingxu1995.github.io/life/travelling)
 
