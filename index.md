@@ -7,5 +7,6 @@ This is a notebook of my study, life, interests and thoughts. Please contact me 
 ### [LINUX](https://xiaomingxu1995.github.io/linux) 
 ### [program](https://xiaomingxu1995.github.io/program)
 ### [high performance computing](https://xiaomingxu1995.github.io/hpc)
+### [everyday life](https://xiaomingxu1995.github.io/life)
 
 ### [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
