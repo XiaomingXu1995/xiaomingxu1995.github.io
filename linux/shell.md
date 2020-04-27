@@ -39,4 +39,11 @@
   * `wc -l fileName` 查看文件有多少行
   * `wc -c fileName` 查看文件有多少字节
   * `wc -w fileName` 查看文件有多少字
+* 查找文件位置命令
+  * `find ./ -name "hello.c"` 在当前目录下搜索`hello.c`的位置。
+* 查看文件大小命令
+  * `df -lh` 查看磁盘剩余空间
+  * `ls -lh hello.c` 查看`hello.c`文件的大小
+  * `du -d 1 -lh .` 查看该目录下所有文件夹的大小以及该目录下所有文件总大小，`-d 1`表示文件夹层数为一层。
+  
   
