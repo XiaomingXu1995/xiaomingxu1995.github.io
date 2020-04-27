@@ -45,5 +45,8 @@
   * `df -lh` 查看磁盘剩余空间
   * `ls -lh hello.c` 查看`hello.c`文件的大小
   * `du -d 1 -lh .` 查看该目录下所有文件夹的大小以及该目录下所有文件总大小，`-d 1`表示文件夹层数为一层。
+
+#### 管道命令
+管道命令`command1|command2`中，`command1`的输出作为`command2`的输入，其中command1的输出为标准输出流，例如`lscpu | grep avx`
   
   
