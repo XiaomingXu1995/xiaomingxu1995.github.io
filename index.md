@@ -1,4 +1,4 @@
-## Welcome to xiaomingXu's personal page.
+## Welcome to xiaomingXu's personal site.
 This is a notebook of my study, life, interests and thoughts. Please contact me by Email to
 **xiaoming.xu@mail.sdu.edu.cn** if you have interests in something above or there are flaws in knowledge. I'd like to make friends with you and wish you a happy day.
 
