@@ -30,3 +30,7 @@
 
 
 素材来源：《大秦帝国之裂变》，《大秦帝国之纵横》，《大秦帝国之崛起》。
+
+推荐视频：
+* [四代秦王热血难凉](https://www.bilibili.com/video/BV1Xs411b76Z)
+* [大秦帝国之裂变+纵横+崛起](https://www.bilibili.com/video/BV1sp411Z7qN)
