@@ -11,4 +11,4 @@
 
 ### [law](https://xiaomingxu1995.github.io/life/law)
 
-### [law](https://xiaomingxu1995.github.io/life/lawTips)
+### [lawForLife](https://xiaomingxu1995.github.io/life/lawForLife)
