@@ -10,3 +10,5 @@
 ### [history](https://xiaomingxu1995.github.io/life/history)
 
 ### [law](https://xiaomingxu1995.github.io/life/law)
+
+### [law](https://xiaomingxu1995.github.io/life/lawTips)
