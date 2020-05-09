@@ -12,3 +12,5 @@
 ### [law](https://xiaomingxu1995.github.io/life/law)
 
 ### [lawForLife](https://xiaomingxu1995.github.io/life/lawForLife)
+
+### [everyday life](https://xiaomingxu1995.github.io/life/everydayLife)
