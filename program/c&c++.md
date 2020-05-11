@@ -6,6 +6,8 @@
 * [计时函数](#计时函数)   
 * [有关编码的问题](#有关编码的问题)
 * [函数指针](#函数指针)
+* [标准库函数](#标准库函数)
+  
 ### 代码规范和习惯
 * 变量和函数的命名要直观合理，不要模棱两可。
 * 申请分配内存之后要记得释放，new配合delete， malloc配合free. 
@@ -61,3 +63,11 @@ func = sub;//assignment
 声明函数`int (* func) (int, int)`中，`(* func)`代表这是一个函数指针，前边`int`表示该函数指针所指向函数的返回值为`int`类型，后边的`(int, int)`表示该函数指针所指向函数的传入参数类型。
 
 **注意：`(* func)`的括号不可以省略，否则`int * func(int, int)`表示声明一个返回值为`int *`的函数，而非声明函数指针。**
+
+### 标准库函数
+c++有很多标准库函数，虽然在性能上可能会没有太多的优势，但是在功能上还是很不错的，而且很多标准库函数的性能比自己写的naive的函数还是要好一些的。
+* [std::sort](http://www.cplusplus.com/reference/algorithm/sort/) 排序算法。
+* [std::unordered_set](http://www.cplusplus.com/reference/unordered_set/unordered_set/) 维护一个集合，其中元素都是不重复的，支持快速哈希索引。
+* [std::unordered_multiset](http://www.cplusplus.com/reference/unordered_set/unordered_multiset/) 维护一个集合，允许其中元素是重复的，支持快速哈希索引。
+* [std::unordered_map](http://www.cplusplus.com/reference/unordered_map/unordered_map/) 维护一个`<key, T>`元素集合，其中元素的key值是不重复的，支持快速哈希索引。
+* [std::unordered_multimap](http://www.cplusplus.com/reference/unordered_map/unordered_multimap/) 维护一个`<key, T>`元素集合，允许其中元素的key值是重复的，支持快速哈希索引。
