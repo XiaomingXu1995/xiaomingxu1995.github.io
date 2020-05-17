@@ -29,3 +29,27 @@ assemblyAccession.version_assemblyName_contentType.optional.format
   * unplaced scaffolds 未定位的（蛋白质）支架
   * any alternate loci or patch scaffolds 任意可替换基因位点或补丁支架
   其中为染色体的一部分的蛋白质支架不在文件中，因为已经是染色体的冗余部分了。对于已经定位了的支架序列在assembly_structure/目录下。
+
+#### assmebly_summary.txt 中有12列，分别是：
+1. assembly_accession 对于该基因的唯一组装编号
+2. [bioproject](https://www.ncbi.nlm.nih.gov/bioproject/) 对于该序列测序工程的编号
+3. [biosample](https://www.ncbi.nlm.nih.gov/biosample/) 记录了该整合序列的来源信息
+4. wgs_master
+5. refseq_category
+6. taxid
+7. species_taxid
+8. organism_name
+9.  infraspecific_name
+10. isolate
+11. version_status
+12. assembly_level
+13. release_type
+14. genome_rep
+15. seq_rel_date
+16. asm_name
+17. submitter
+18. gbrs_paired_asm
+19. paired_asm_comp
+20. ftp_path
+21. excluded_from_refseq
+22. relation_to_type_Material
