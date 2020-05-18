@@ -7,3 +7,6 @@
 
 ### threadPool
 
+### shell GNU parallel 
+通过shell脚本实现多线程操作在实际工作中经常用到，比如多线程解压多文件，通过GNU parallel可以实现相应的操作。
+
