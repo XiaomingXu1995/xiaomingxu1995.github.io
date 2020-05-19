@@ -53,3 +53,5 @@ assemblyAccession.version_assemblyName_contentType.optional.format
 20. ftp_path
 21. excluded_from_refseq
 22. relation_to_type_Material
+
+#### 序列名称类型

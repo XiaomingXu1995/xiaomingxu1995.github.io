@@ -1,5 +1,10 @@
 ## 时间管理
 
+#### tommorrow TODO
+* refseq 类别统计整理
+* 有关cov19 vs viral的Mash dist
+* 有关meta数据的统计。
+* 查一下cov19的文献和数据。
 
 #### 睡眠方法
 睡眠数量和质量关乎是否休息充分，从而影响工作学习生活效率。此内容来源于B站up主**兔叭咯**，视频链接[点击此处](https://www.bilibili.com/video/BV1if4y1m7jg)
