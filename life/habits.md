@@ -1,5 +1,14 @@
 ## habits 
 
+### OneRepublic
+对胖子的定位：[神曲创作无冕之王](https://www.bilibili.com/video/BV1tW411a7QF?from=search&seid=2002669424552887743)。对胖子的个人评价：自己写的歌，跪着也要唱上去。OnePublic给人一种积极向上的氛围，即使他们的成名曲***apologize***中也带着一分豁达。
+* ***Counting Stars***
+* ***Apologize***
+* ***Good Life***
+* ***If I Lose Myself***
+* ***Secrets***
+* ***Love Runs Out***
+
 ### League of Legends
 * 德玛西亚之力
 * 沙漠死神
