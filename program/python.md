@@ -25,4 +25,5 @@ plt.show()
 ```
 以上代码的运行结果如图所示：
 ![Image of python matplotlib](../image/python_matplotlib.png)
+
 并且在运行结果中还可以调节图的上下高度，左右宽度，对于某一部分的放大，可以直接将结果另存为`.png`图片类型或者`.pdf`类型,非常好用.
