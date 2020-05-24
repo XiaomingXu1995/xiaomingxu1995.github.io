@@ -8,7 +8,7 @@ FASTA格式中的一条完整序列，包含开头的单个名称描述行和多
 行首以`>`开头，用于和数据行区分。`>`后面为序列标识符，该行剩余部分为描述部分。
 序列标识符SeqID在`NCBI FASTA`定义的行的格式：
 数据库|格式
------|-----
+:-----|:-----
 GenBank|gb\|accession\|locus
 EMBL Data Library|emb\|accession\|locus
 DDBJ, DNA Database of Japan|dbj\|accession\|locus
@@ -75,7 +75,7 @@ Local Sequence identifier|lcl\|identifier
 
 #### 扩展名
 扩展名|含义|备注
-----|----|----
+:----|:----|:----
 fasta (.fas)|普通FASTA|任意普通的FASTA文件；此类扩展名还有fa、seq、fsa
 fna|核酸FASTA|普遍用于表示核酸序列的FASTA文件
 ffn|核酸编码区FASTA|包含基因组编码区的FASTA文件
