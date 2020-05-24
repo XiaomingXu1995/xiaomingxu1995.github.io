@@ -6,21 +6,21 @@ FASTA格式中的一条完整序列，包含开头的单个名称描述行和多
 
 #### 描述行
 行首以`>`开头，用于和数据行区分。`>`后面为序列标识符，该行剩余部分为描述部分。
-* 序列标识符SeqID在`NCBI FASTA`定义的行的格式：
-  |数据库|格式|
-  |------|-----|
-  |GenBank|gb\|accession\|locus|
-  |EMBL Data Library|emb\|accession\|locus|
-  |DDBJ, DNA Database of Japan|dbj\|accession\|locus|
-  |NBRF PIR|pir\|\|entry|
-  |Protein Research Foundation|	prf\|\|name|
-  |SWISS-PROT|sp\|accession\|entry name|
-  |Brookhaven Protein Data Bank|pdb\|entry\|chain|
-  |Patents|pat\|country\|number|
-  |GenInfo Backbone Id|bbs\|number|
-  |General database identifier|gnl\|database\|identifier|
-  |NCBI Reference Sequence|ref\|accession\|locus|
-  |Local Sequence identifier|lcl\|identifier|
+序列标识符SeqID在`NCBI FASTA`定义的行的格式：
+数据库|格式
+------|-----
+GenBank|gb\|accession\|locus
+EMBL Data Library|emb\|accession\|locus
+DDBJ, DNA Database of Japan|dbj\|accession\|locus
+NBRF PIR|pir\|\|entry
+Protein Research Foundation|	prf\|\|name
+SWISS-PROT|sp\|accession\|entry name
+Brookhaven Protein Data Bank|pdb\|entry\|chain
+Patents|pat\|country\|number
+GenInfo Backbone Id|bbs\|number
+General database identifier|gnl\|database\|identifier
+NCBI Reference Sequence|ref\|accession\|locus
+Local Sequence identifier|lcl\|identifier
 
   
 #### 数据行
@@ -74,10 +74,10 @@ FASTA格式中的一条完整序列，包含开头的单个名称描述行和多
   * \- 不定长度空白占位符
 
 #### 扩展名
-|扩展名|含义|备注|
-|------|----|----|
-|fasta (.fas)|普通FASTA|任意普通的FASTA文件；此类扩展名还有fa、seq、fsa
-|fna|核酸FASTA|普遍用于表示核酸序列的FASTA文件|
-|ffn|核酸编码区FASTA|包含基因组编码区的FASTA文件|
-|faa|氨酸FASTA|包含表示氨酸序列的FASTA文件。含有多种蛋白质序列的FASTA文件还可使用更具体的mpfa扩展名|
-|frn|非编码RNA FASTA|包含以DNA字母编码表示的基因组非编码RNA区（如tRNA、rRNA）的FASTA文件|
+扩展名|含义|备注
+------|----|----
+fasta (.fas)|普通FASTA|任意普通的FASTA文件；此类扩展名还有fa、seq、fsa
+fna|核酸FASTA|普遍用于表示核酸序列的FASTA文件
+ffn|核酸编码区FASTA|包含基因组编码区的FASTA文件
+faa|氨酸FASTA|包含表示氨酸序列的FASTA文件。含有多种蛋白质序列的FASTA文件还可使用更具体的mpfa扩展名
+frn|非编码RNA FASTA|包含以DNA字母编码表示的基因组非编码RNA区（如tRNA、rRNA）的FASTA文件
