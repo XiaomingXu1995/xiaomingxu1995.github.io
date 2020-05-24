@@ -1,8 +1,12 @@
 ## BIOINFORMATICS 
 
 #### genome file format
-* FASTA format: assembled genomes.
+* [FASTA format: assembled genomes](bioinformatics/fasta.md)
 * FASTQ format: sequencing datasets.
+  
+
+#### fastq format
+
 
 #### [ncbi genomes/refseq/](https://ftp.ncbi.nlm.nih.gov/genomes/all/README.txt)
 其中的内容包含：组装基因序列和RefSeq的注释。所有的原核生物和真核生物基因都被注释。其中包含以下几项：
