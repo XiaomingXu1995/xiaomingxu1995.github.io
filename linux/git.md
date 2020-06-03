@@ -35,4 +35,7 @@ git clone git@github.com:XiaomingXu1995/xiaomingxu1995.github.io.git
 #### 基本操作： diff
 `git diff file.c` 命令是查看当前本地的文件相对于本地的commit做了哪些具体的修改。其中file.c可以通过`git status`命令进行获取。
 
+#### 基本操作：reset
+`git reset <commit ID>` 将本地的提交记录回退到之前某一个提交节点上。然后在本地进行修改之后可以通过 `git push -f origin master` 将结果push到远程仓库。
+
 
