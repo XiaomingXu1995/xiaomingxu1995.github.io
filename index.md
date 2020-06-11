@@ -9,5 +9,9 @@ This is a notebook of my study, life, interests and thoughts. Please contact me 
 ### [High Performance Computing](https://xiaomingxu1995.github.io/hpc)
 ### [Everyday Life](https://xiaomingxu1995.github.io/life)
 ### [bioinformatics](bioinformatics.md)
+### [hardware and OS](hardware.md)
+
+
+
 
 ### [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/)
