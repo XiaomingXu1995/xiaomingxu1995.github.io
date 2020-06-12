@@ -28,7 +28,7 @@ the time of cout is: 31.9015s
 the time of ofile is: 1.72658s
 ```
 
-如果每次都执行 `flush()` 操作，两者的运行时间就会变成这样：
+以上是每30000次输出进行一次 `flush()` 操作，如果每次都执行 `flush()` 操作，两者的运行时间就会变成这样：
 ```
 the time of cout is: 31.3951s
 the time of ofile is: 31.3369s
