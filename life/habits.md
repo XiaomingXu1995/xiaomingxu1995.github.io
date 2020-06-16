@@ -3,7 +3,7 @@
 ### OneRepublic
 对胖子的定位：[神曲创作无冕之王](https://www.bilibili.com/video/BV1tW411a7QF?from=search&seid=2002669424552887743)。对胖子的个人评价：自己写的歌，跪着也要唱上去。OnePublic给人一种积极向上的氛围，即使他们的成名曲***apologize***中也带着一分豁达。
 
-胖子唱歌走音是常态，做这个视频的粉丝是对胖子的真爱。[违和感下线系列：史上最糟糕的演唱--Counting Stars](https://www.bilibili.com/video/BV1Ls411Z7fJ)
+胖子唱歌走音是常态，做这个视频的粉丝是对胖子的真爱。[粉丝配音版--Counting Stars](https://www.bilibili.com/video/BV1Ls411Z7fJ)
 * ***Counting Stars***
 * ***Apologize***
 * ***Good Life***
