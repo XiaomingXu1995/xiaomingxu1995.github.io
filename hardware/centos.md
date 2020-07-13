@@ -22,5 +22,7 @@
 引导成功了之后，安装过程基本上就是无脑的下一步了。其中也有一些注意事项，可以参考具体的[Linux中国的教程](https://zhuanlan.zhihu.com/p/85807189)。其中的磁盘分区我选择`Automatic`形式，教程中是`Custom`形式。
 
 
-
 至此，安装完毕。
+
+#### 之后U盘不识别
+用`Fedora Media Writer`写入的系统启动盘再次插入电脑上不识别，解铃还须系铃人，再次通过`Fedora Media Writer`重新格式化U盘即可。
