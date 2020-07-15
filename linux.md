@@ -11,7 +11,8 @@
 ### tmux
 #### [tmux的相关操作](https://xiaomingxu1995.github.io/linux/tmux)
 
-
+### git 
+#### [git的相关操作](linux/git.md)
 
 
 

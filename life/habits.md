@@ -2,6 +2,8 @@
 
 ### OneRepublic
 对胖子的定位：[神曲创作无冕之王](https://www.bilibili.com/video/BV1tW411a7QF?from=search&seid=2002669424552887743)。对胖子的个人评价：自己写的歌，跪着也要唱上去。OnePublic给人一种积极向上的氛围，即使他们的成名曲***apologize***中也带着一分豁达。
+
+胖子唱歌走音是常态，做这个视频的粉丝是对胖子的真爱。[粉丝配音版--Counting Stars](https://www.bilibili.com/video/BV1Ls411Z7fJ)
 * ***Counting Stars***
 * ***Apologize***
 * ***Good Life***
@@ -19,6 +21,9 @@
   
 ### The Big Bang Theory
 
+### bilibili 小破站
+* 未知的世界带来的兴奋总是多于恐惧。——[所长林超致小破站11周岁生日](https://www.bilibili.com/video/BV1pg4y1v7rE)
+
 ### bilibili鬼畜BGM
 * astronomia(2020.4)
 * 野狼disco（2019）
@@ -26,6 +31,16 @@
 * 下山
 * that girl
 * 心如止水
+
+### bilibili娱乐up主
+* HeyWarWars
+  * 对欧美以及国内娱乐圈了解广泛
+  * 内容有深度
+  * 评价客观
+* 我是郭杰瑞
+  * 对美国的国情日常介绍全面
+  * 内容真实客观
+  * 普通话好
 
 ### bilibili历史up主
 * 御史房
@@ -62,6 +77,10 @@
   * 深谙互联网发展史
   * 内容客观不带节奏
   * 语言通俗幽默，浅显易懂
+* IC实验室
+  * 消费
+  * 商业
+  * 洞见
   
 ### bilibili鬼畜up主
 * A路人
