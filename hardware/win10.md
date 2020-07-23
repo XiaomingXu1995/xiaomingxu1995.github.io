@@ -29,3 +29,6 @@
 * SYSTEM_THREAD_EXECPTION_NOT_HANDLED
 
 还有几种代码没有记下来，每次都是先出现`THREAD_STUCK_IN_DEVICE_DRIVER`之后，出现其他的，也许它是始作俑者吧，这是一个玄学问题。
+
+### 友好的解决方案
+针对上面提到的source目录下的`install.wim`文件超过4G不能放入FAT32格式的系统盘中的问题，使用`UltraISO`进行刻盘，简单，无脑，易操作，推荐使用。
