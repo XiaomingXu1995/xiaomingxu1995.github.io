@@ -9,6 +9,7 @@ This is a notebook of my study, life, interests, and thoughts. Please contact me
 **好像两种情况的循环单位是一样的，只是切入点不一样，看个人选择了。**
 
 
+### [schedule](schedule.md)
 ### [LINUX](https://xiaomingxu1995.github.io/linux) 
 ### [Program](https://xiaomingxu1995.github.io/program)
 ### [High Performance Computing](https://xiaomingxu1995.github.io/hpc)
