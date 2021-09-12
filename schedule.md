@@ -9,10 +9,12 @@ In fastANI paper, there is an standard of species classify called **nomenclature
 ## 2021/9/11 Sunday
 I cannot sleep in the midnight, so make the plan need to do.
 It is a good idea to take a shower after getting up tommorrow morning.
-* [ ] output of result need to modify, with name and comment by std::vector in GenomeInfo.
+* [x] output of result need to modify, with name and comment by std::vector in GenomeInfo. 9/12
+* [ ] result checking of sketchbysequence.
 * [ ] The kmer-db or other papers have cite the paper of Muller and bertil, need to read the paper.
 * [ ] Is there any papers have been published with theme of genome clustering?
 * [ ] Read more sketch or alignment free overview papers to get more background information just like in fastANI it said the horizontal gene transfer was more easy within species. 
+
 
 ---
 Apart from the RabbitTClust paper writing, there are several other things to do:
