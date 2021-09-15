@@ -9,11 +9,16 @@ In fastANI paper, there is an standard of species classify called **nomenclature
 ## 2021/9/11 Sunday
 I cannot sleep in the midnight, so make the plan need to do.
 It is a good idea to take a shower after getting up tommorrow morning.
-* [x] output of result need to modify, with name and comment by std::vector in GenomeInfo. 9/12
-* [ ] result checking of sketchbysequence.
-* [ ] The kmer-db or other papers have cite the paper of Muller and bertil, need to read the paper.
+* [x] Output of result need to modify, with name and comment by std::vector in GenomeInfo. 9/12
+* [x] result checking of sketchbysequence.
+* [x] The kmer-db or other papers have cite the paper of Muller and bertil, need to read the paper(the paper named "MetaCache: context-aware classification of netagenomic reads using minhashing")
+ 
+  * [ ] the download data bash script in metacache can download the latest NCBI RefSeq release.
+
 * [ ] Is there any papers have been published with theme of genome clustering?
 * [ ] Read more sketch or alignment free overview papers to get more background information just like in fastANI it said the horizontal gene transfer was more easy within species. 
+* [ ] The database from Mash or fastANI need to confirm.
+
 
 
 ---
