@@ -11,7 +11,7 @@ I cannot sleep in the midnight, so make the plan need to do.
 It is a good idea to take a shower after getting up tommorrow morning.
 * [x] Output of result need to modify, with name and comment by std::vector in GenomeInfo. 9/12
 * [x] result checking of sketchbysequence.
-* [x] The kmer-db or other papers have cite the paper of Muller and bertil, need to read the paper(the paper named "MetaCache: context-aware classification of netagenomic reads using minhashing")
+* [x] The kmer-db or other papers have cite the paper of Muller and bertil, need to read the paper(the paper named "MetaCache: context-aware classification of netagenomic reads using minhashing", see [note of metacache](./note/experience.md))
  
   * [ ] the download data bash script in metacache can download the latest NCBI RefSeq release.
 
