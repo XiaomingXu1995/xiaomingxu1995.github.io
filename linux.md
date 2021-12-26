@@ -2,6 +2,7 @@
 
 ### 命令行
 ####  [shell脚本](https://xiaomingxu1995.github.io/linux/shell)
+####  [linux shell](https://xiaomingxu1995.github.io/linux/linux_shell)
 
  
 ### vim
