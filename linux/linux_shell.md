@@ -102,19 +102,22 @@ For float operation
   * `obase` is the output base format
   * `ibase` is the input base format
 
-# Section 2 Artificial Intelligence Bash Script
-## condition judgment 
-**pay attention to the space between all the expressions and bracket**
+# 2 Artificial Intelligence Bash Script
+## 2.1 Basic condition judgment 
+**Pay attention to the space between all the expressions and bracket**
 * `[ expression ]` attention to the space near bracket
 * `[ ! expression ]` negetion of expression
 * `[[ expression ]]`
 * `test` 
 * `echo $?` can print the last quit state mask. `0` is `true`, others are `false`.
-* `[ -z $TEST ] && echo Y || echo N` `-z` can test whether a string is null
+## 2.2 Comparison of strings
+* `test a == a; echo $?` will print 0 (true)
+* `test a != a; echo $?` will print 1 (false)
+* `[ -z $TEST ] && echo Y || echo N` `-z` and `-n` can test whether a string is null
 * `[ -n $Jacob ] && echo Y || echo N` will print `Y` even though the `Jacob` is null since the `$Jacob` is considered as a space rather than null
 * `[ -n "$Jacob" ] && echo Y || echo N` will print `N` and we should use `""` rather than `''` since `''` can mask the `$` and see it as an common char in the string
 
-## comparison of integers
+## 2.3 Comparison of integers
 * `-eq` equal
 * `-ne` not equal
 * `-gt` greater than
@@ -122,7 +125,7 @@ For float operation
 * `-lt` less than
 * `-le` less or equal
 
-## comparison of file 
+## 2.4 Comparison of file 
 all the description below return `true`
 * `-e file` file or directory exists
 * `-f file` file exists and is common file
@@ -138,6 +141,22 @@ all the description below return `true`
 * `file1 -ef file2` file1 is same with file2
 * `file1 -nt file2` file1 is newer than file2 or file1 exists while file2 does not exist
 * `file1 -ot file2` file1 is older than file2 or file2 exists while file1 does not exist
+
+## 2.5 Difference of `[[]]` and `[]`
+In most cases, the `[[]]` and `[]` are same with each other.
+The `test` and `[]` have greater compatibillity than `[[]]`, and the `[[]]` can run on Bash and Zsh while `test` and `[]` can run on all the shell interpreters.
+The `[[]]` is more convenient than the others as follows:
+
+| `[[]]` | `[]`|
+| :---| :---|
+| `<` sort comparison  | not support  |
+| `>` sort comparison  | not support |
+| `&&` AND   | `-a` AND |
+| `||` OR    | `-o` OR  |
+| `==` pattern matching support wildcard `*  ? [...]`  |`==` exect string comparison  |
+| `=~` support Regular Expression match  |  not support |
+| `()` used with AND, OR | `\(\)` can only support part shell |
+
 
 
 
