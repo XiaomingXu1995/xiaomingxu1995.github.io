@@ -16,6 +16,8 @@ This is a notebook of my study, life, interests, and thoughts. Please contact me
 ### [Everyday Life](https://xiaomingxu1995.github.io/life)
 ### [bioinformatics](bioinformatics.md)
 ### [hardware and OS](hardware.md)
+### [note all](note_all/README.md)
+
 
 
 
