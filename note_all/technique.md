@@ -29,6 +29,7 @@
     * 在askubuntu上看到了有人提问wget无法配置socks5协议代理，有人回复wget就是不支持socks5，建议使用curl, 参照：[can you set socks5 proxy from Linux command line](https://askubuntu.com/questions/1327783/can-you-set-socks5-proxy-from-linux-command-line)。
     其他地方也有佐证curl相对于wget来讲支持socks协议， 参照：[How to Use Wget With Proxy](https://oxylabs.io/blog/wget-proxy)。
 * 正确解决方法：使用privoxy作为vps6 shadowsocks 代理和wget之间的代理。具体实现见下边shell代码：
+
 ```bash
 #1. install shadowsocks
 pip3 install --user shadowsocks
