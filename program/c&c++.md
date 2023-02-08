@@ -91,3 +91,18 @@ int main(){
 }
 ```
 以上程序的运行结果会输出`helloworld`，并且会将文件`name1`和`name2`中的内容合并重定向到`result`文件中。
+
+### c++ 函数参数使用引用
+c++函数使用引用传递参数，保证传递的对象是同一个对象的引用，而不是再copy一个新的临时对象。有以下需求时需要传递引用：
+* 该参数的值需要被修改，甚至时返回的主要参数，需要当作引用。
+```cpp
+// read the sketches from the inputFile
+readSketches(vector<sketch_t> sketches, string inputFile); // cannot work, the sketches are only save in the temporary parameter object, 
+readSketches(vector<sketch_t>& sketches, string intputFile); //works
+```
+* 该参数的对象所占用的内存较大，传递参数copy一份新的临时对象的时候，会产生一份新的内存开销。（参照RabbitKSSD中printInfo函数）
+```cpp
+// output the sketch infos to the outputFile
+printInfo(vector<sketch_t> sketches, string outputFile); //It will copy a new sketches object, and used twice memory.
+printInfo(vector<sketch_t>& sketches, string outputFile); //It will use the original object directly, without copy a new object and a new memory.
+```
