@@ -1,5 +1,26 @@
 # all technique including the environment of Linux, the hardware and software recommendation, the website.
 
+
+## git 删除提交记录中的大文件。
+* motivation: 
+    * 通过git提交的维护代码的过程中，添加过非常大的文件，即使在后续中删除该文件，在.git/文件夹目录中，还会保留之前git提交的记录，在git clone的时候，会非常慢。
+* 解决方法：
+    * [寻找并删除Git记录中的大文件](https://harttle.land/2016/03/22/purge-large-files-in-gitrepo.html)
+
+主要命令：`git rev-list` 和 `git filter-branch`。
+* 首先通过`rev-list` 来找到仓库记录中的大文件：
+```bash
+git rev-list --objects --all | grep "$(git verify-pack -v .git/objects/pack/*.idx | sort -k 3 -n | tail -5 | awk '{print$1}')"
+```
+* 然后通过`filter-branch` 来重写这些大文件涉及到的所有提交（重写历史记录）：
+```bash
+git filter-branch -f --prune-empty --index-filter 'git rm -rf --cached --ignore-unmatch your-file-name' --tag-name-filter cat -- --all
+```
+* 最后push到远端仓库：
+```bash
+git push origin --force --all
+```
+
 ## ssh 
 
 [sshd man website](http://man.openbsd.org/sshd)
