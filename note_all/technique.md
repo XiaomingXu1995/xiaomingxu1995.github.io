@@ -1,6 +1,18 @@
 # all technique including the environment of Linux, the hardware and software recommendation, the website.
 
 
+## Linux 操作
+
+### 测试硬盘速度
+```bash
+# 清理系统缓存（需要root权限）
+sudo echo 1 > /proc/sys/vm/drop_caches
+
+# 测试硬盘读写速度
+sync; dd if=/dev/zero of=./hello.out bs=4M count=1024; sync #write
+dd if=./hello.out of=/dev/null bs=4M #read, need to drop_cache
+```
+
 ## git 删除提交记录中的大文件。
 * motivation: 
     * 通过git提交的维护代码的过程中，添加过非常大的文件，即使在后续中删除该文件，在.git/文件夹目录中，还会保留之前git提交的记录，在git clone的时候，会非常慢。
