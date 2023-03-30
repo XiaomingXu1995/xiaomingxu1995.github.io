@@ -1,5 +1,6 @@
 # all technique including the environment of Linux, the hardware and software recommendation, the website.
 
+## [git 操作](./technique/git.md) 
 
 ## Linux 操作
 
