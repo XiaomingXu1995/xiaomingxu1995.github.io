@@ -26,3 +26,6 @@ git push -u origin main
 ```
 git branch -D tmp
 ```
+
+参考资料：  
+* [git 合并多次提交为一次提交](https://www.jianshu.com/p/68a55caa4501)
