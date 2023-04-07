@@ -2,6 +2,7 @@
 
 ## [Linux parallel 操作](./technique/parallel.md)
 ## [Git 操作](./technique/git.md) 
+## [Linux_env](./technique/Linux_env.md)
 
 ## Linux 操作
 
