@@ -1,8 +1,10 @@
 # all technique including the environment of Linux, the hardware and software recommendation, the website.
 
-## [Linux parallel 操作](./technique/parallel.md)
-## [Git 操作](./technique/git.md) 
+## [Linux parallel](./technique/parallel.md)
+## [Git](./technique/git.md) 
 ## [Linux_env](./technique/Linux_env.md)
+## [cmake](./technique/cmake.md)
+## [compile_option](./technique/compile_option.md)
 
 ## Linux 操作
 
