@@ -1,6 +1,6 @@
 # compiling options 如何设置编译选项
 
-## 在使用 g++ 进行编译链接时，可以通过以下方式同时链接动态库和静态库：
+## 在使用 g++ 进行编译链接时，可以通过以下方式同时链接动态库和静态库：(xxm:经过测试，并不是很好用)
 在使用 g++ 进行编译链接时，可以通过以下方式同时链接动态库和静态库：
 ```
 g++ -o output main.cpp -L/path/to/libs -lmy_static_lib -lmy_dynamic_lib
@@ -12,3 +12,10 @@ g++ -o output main.cpp -L/path/to/libs -lmy_static_lib -lmy_dynamic_lib
 g++ -o output main.cpp -L/path/to/libs -Wl,-Bstatic -lmy_static_lib -Wl,-Bdynamic -lmy_dynamic_lib
 ```
 这里的 -Wl,-Bstatic 表示接下来要链接的库都是静态库，-Wl,-Bdynamic 表示接下来要链接的库都是动态库。
+
+## 链接静态库
+链接静态库，不需要像链接动态库那样，通过-l 链接，可以直接当作一个二进制文件进行编译。
+例如：
+```
+g++ main.o librabbitfx_static.a -o output
+```
