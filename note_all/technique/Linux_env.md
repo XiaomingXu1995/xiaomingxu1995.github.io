@@ -3,12 +3,7 @@
 - [Linux 查看动态链接库的位置](#dynamic-lib)
 - [yum 查找某个软件包](#yum)
 - [Linux systemctl](#systemctl)
-- []()
-- []()
-- []()
-- []()
-- []()
-- []()
+- [Linux ulimit](#ulimit)
 
 ## Linux 查看动态链接库的位置 {#dynamic-lib}
 可以使用 `ldconfig` 工具来查找系统中安装的共享库的路径。
@@ -95,3 +90,41 @@ systemctl 是一个用于管理系统服务的命令行工具，用于控制 sys
 * 查看所有已启动的服务及其详细信息：systemctl list-units --type=service --all
 
 除了上述命令之外，systemctl 还有许多其他命令，包括 mask、unmask、isolate、kill、show 等等。可以通过 man systemctl 命令查看详细的帮助信息。
+
+## ulimit -a 命令的各项输出表示什么意思 {#ulimit}
+ulimit -a 命令会显示当前 shell 会话中所有限制的值，包括软限制和硬限制。下面是 ulimit -a 命令的输出示例以及各项输出的含义：
+```
+core file size          (blocks, -c) 0
+data seg size           (kbytes, -d) unlimited
+scheduling priority             (-e) 0
+file size               (blocks, -f) unlimited
+pending signals                 (-i) 24235
+max locked memory       (kbytes, -l) 65536
+max memory size         (kbytes, -m) unlimited
+open files                      (-n) 1024  # 文件描述符的软限制和硬限制
+pipe size            (512 bytes, -p) 8
+POSIX message queues     (bytes, -q) 819200
+real-time priority              (-r) 0
+stack size              (kbytes, -s) 8192
+cpu time               (seconds, -t) unlimited
+max user processes              (-u) unlimited
+virtual memory          (kbytes, -v) unlimited
+file locks                      (-x) unlimited
+```
+下面是各项输出的含义：
+* core file size: 指定内核转储(core dump)文件的最大大小（以块为单位）。
+* data seg size: 指定进程数据段的最大大小（以千字节为单位）。
+* scheduling priority: 指定进程调度优先级。
+* file size: 指定进程创建的文件的最大大小（以块为单位）。
+* pending signals: 指定进程能够排队等待接收的最大信号数。
+* max locked memory: 指定进程能够锁定的最大内存量（以千字节为单位）。
+* max memory size: 指定进程可用的最大物理内存量（以千字节为单位）。
+* open files: 指定进程能够同时打开的最大文件数。这里的输出包括了软限制和硬限制，其中软限制是当前限制的值，而硬限制是进程能够设置的最大限制值。
+* pipe size: 指定进程创建的管道的最大大小（以字节为单位）。
+* POSIX message queues: 指定进程可用的 POSIX 消息队列的最大总字节数。
+* real-time priority: 指定进程的实时调度优先级。
+* stack size: 指定进程堆栈的最大大小（以千字节为单位）。
+* cpu time: 指定进程能够使用的 CPU 时间的最大数量（以秒为单位）。
+* max user processes: 指定一个用户能够同时运行的最大进程数。
+* virtual memory: 指定进程可用的最大虚拟内存量（以千字节为单位）。
+* file locks: 指定进程能够锁定的最大文件数。
