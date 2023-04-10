@@ -1,6 +1,16 @@
 # Linux 环境的各种操作
 
-## Linux 查看动态链接库的位置
+- [Linux 查看动态链接库的位置](#dynamic-lib)
+- [yum 查找某个软件包](#yum)
+- [Linux systemctl](#systemctl)
+- []()
+- []()
+- []()
+- []()
+- []()
+- []()
+
+## Linux 查看动态链接库的位置 {#dynamic-lib}
 可以使用 `ldconfig` 工具来查找系统中安装的共享库的路径。
 ```bash
 # 更新缓存
@@ -8,13 +18,13 @@ sudo ldconfig
 ldconfig -p | grep <library_name>
 ```
 
-## yum 查找某个软件包
+## yum 查找某个软件包 {#yum}
 在 CentOS 或者其他基于 RPM 的 Linux 发行版中，您可以使用 `yum search` 命令来查找软件包。该命令会在 CentOS 官方仓库以及您已经配置的其他仓库中搜索软件包名称及其描述。例如，要查找名为 libomp 的软件包，您可以在终端中输入以下命令：
 ```
 yum search libomp
 ```
 
-## libomp-devel.i686中的i686是什么意思
+## libomp-devel.i686中的i686是什么意思 
 在 Linux 中，i686 表示 Intel 32 位体系结构（也称为 IA-32 或 x86）。它是 Intel 8086 处理器的后继者，它支持 IA-32 指令集，可以运行在 32 位模式下。
 
 在 RPM 软件包管理器中，i686 表示针对 i686 架构的 32 位二进制软件包。相应地，x86_64 表示针对 x86_64 架构的 64 位二进制软件包。例如，在 CentOS 和 Fedora 等 RPM-based 的 Linux 发行版中，`libomp-devel.i686` 表示针对 32 位系统的 OpenMP 开发库软件包，可以在 32 位系统上使用。
@@ -69,3 +79,19 @@ make && make install
 ```
 ldd --version
 ```
+
+## Linux systemctl {#systemctl}
+systemctl 是一个用于管理系统服务的命令行工具，用于控制 systemd 系统和服务管理器。以下是一些常用的 systemctl 命令：
+
+* 启动一个服务：systemctl start service_name
+* 停止一个服务：systemctl stop service_name
+* 重启一个服务：systemctl restart service_name
+* 显示一个服务的状态：systemctl status service_name
+* 开机自启一个服务：systemctl enable service_name
+* 禁止一个服务开机自启：systemctl disable service_name
+* 查看一个服务是否已开机自启：systemctl is-enabled service_name
+* 查看一个服务是否正在运行：systemctl is-active service_name
+* 查看所有已启动的服务：systemctl list-units --type=service
+* 查看所有已启动的服务及其详细信息：systemctl list-units --type=service --all
+
+除了上述命令之外，systemctl 还有许多其他命令，包括 mask、unmask、isolate、kill、show 等等。可以通过 man systemctl 命令查看详细的帮助信息。
