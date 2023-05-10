@@ -6,6 +6,7 @@
 ## [cmake](./technique/cmake.md)
 ## [compile_option](./technique/compile_option.md)
 ## [Makefile](./technique/Makefile.md)
+## [shadowsocks](./technique/shadowsocks.md)
 
 ## Linux 操作
 
