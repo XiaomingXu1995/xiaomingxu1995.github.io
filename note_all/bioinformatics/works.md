@@ -1,6 +1,7 @@
 # works for the paper
 
 ## RabbitTClust
+* First commit of this software on Github `2021/1/13`
 ### v.1.0.0
 * Submit to Bioinformatics `2021/12/10`
 * Major revision `2022/1/10`
