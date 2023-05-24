@@ -9,7 +9,7 @@ All note for different technique, background, and something interesting.
 
 ## [coding](./coding.md)
 
-## [HPC](./HPC.md)
+## [MPI](./MPI.md)
 
 ## [technique](./technique.md)
 
