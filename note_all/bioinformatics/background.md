@@ -19,3 +19,9 @@ NCBI SRA 数据库，全称(Sequence Read Archive)数据库，是测序数据（
 Aspera工具的安装方法见:[install Aspera](https://www.jianshu.com/p/fed19a8821eb), 个人尝试了使用conda安装比较简单，从官方网站下载的安装包，安装完成后没有公钥文件(asperaweb_id_dsa.openssh)。
 
 通过Aspera 下载SRA fastq文件的具体操作参照：[download fastq by Aspera](https://blog.csdn.net/weixin_44616693/article/details/113923881)。
+
+## fast5 和 fastq格式的区别
+* fast5：原始电信号文件，以.fast5为文件结尾。此文件既有测序得到的序列信息，还有甲基化修饰信息。经过basecall，MinKNOW2.2软件包中的Guppy软件可以将fast5文件转换得到fq文件，测序仪本身是带有这个basecall功能的。
+* fastq：由fast5文件转换而来，以.fastq或.fq结尾，与二代格式一样，四行为一个单位，只不过序列要长很多，这是三代的一个优势。
+
+参考链接：[fast5和fastq格式](https://zhuanlan.zhihu.com/p/137069950)
