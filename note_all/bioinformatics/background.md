@@ -1,5 +1,12 @@
 # background for bioinformatics
 
+## key words
+### [Resolving the complexity of the human genome using single-molecule sequencing](https://www.nature.com/articles/nature13907)
+* single-molecule, real-time (SMRT) 
+    * average mapped read length = 5.8 kb
+    * human GRCh37 reference genome
+* haploid human genome (CHM1) 
+
 ## biological replicates VS technical replicates
 Arised from SRA dump tool: fastq-dump --skip-technical optional
 
