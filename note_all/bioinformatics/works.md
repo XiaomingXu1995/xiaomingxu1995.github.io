@@ -18,3 +18,16 @@
 * Accept `2023/5/6`
 * Submit Proof `2023/5/16`
 * Online `2023/5/17`
+
+# RabbitKSSD
+* First commit of this software on Github `2022/10/25`
+
+### v.1.0.0
+* Submit to Bioinformatics `2023/4/18`
+* Major revision `2023/6/16`
+* Submit for Major revision `2023/9/12`
+* Minor revision `2023/10/23`
+* Submit for Minor revision `2023/11/7`
+* Accept `2023/11/8`
+* Submit for final Latex files `2023/11/14`
+* Online `2023/11/16`
