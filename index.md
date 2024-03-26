@@ -13,6 +13,7 @@ This is a notebook of my study, life, interests, and thoughts. Please contact me
 ### [bioinformatics](bioinformatics.md)
 ### [hardware and OS](hardware.md)
 ### [note all](note_all/README.md)
+### [coding](coding/README.md)
 
 
 
