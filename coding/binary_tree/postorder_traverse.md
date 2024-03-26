@@ -1,5 +1,5 @@
 
-### 前序遍历二叉树
+### 后序遍历二叉树
 ```c++
 #include <iostream>
 #include <stack>
