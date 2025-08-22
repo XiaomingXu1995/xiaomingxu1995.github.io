@@ -13,6 +13,7 @@
   <!-- 二级标题 -->
   <h2>Contents</h2>
   <ul>
+    <li><a href="#AI-Infra">AI Infra</a></li>
     <li><a href="#attention">Attention</a></li>
     <ul>
       <li><a href="#attention-mla">MLA</a></li>
@@ -20,21 +21,27 @@
     </ul>
     <li><a href="#cuda_notes">CUDA Notes</a></li>
     <li><a href="#low-bit">Low Bit training</a></li>
-    <ul>
-      <li><a href="#low-bit-paper">Low bit paper</a></li>
-      <li><a href="#low-bit-contents">Low Bit contents</a></li>
-
-    </ul>
     <li><a href="#technique">Technique</a></li>
     <ul>
+      <li><a href="#profiler">Profiler</a></li>
       <li><a href="#docker">Docker</a></li>
       <li><a href="#network">Network</a></li>
       <li><a href="#git">Git</a></li>
+      <li><a href="#pixi">pixi</a></li>
       <li><a href="#slurm">Slurm</a></li>
     </ul>
   </ul>
 
   <!-- 内容部分 -->
+  <h2 id="AI-Infra">AI Infra</h2>
+  <ul>
+    <li><span style="color: gray" size="6px">[2025.08.21]</span>
+      <a href="https://mp.weixin.qq.com/s/smLGBxYPD4d1AV2ArA8NKg" target="_blank">入局AI Infra：程序员必须了解的AI系统设计与挑战知识</a>
+    </li>
+  </ul>
+
+
+
   <h2 id="attention">Attention</h2>
   <h3 id="attention-mla">MLA</h3>
   <ul>
@@ -75,6 +82,12 @@
     <li><span style="color: gray" size="6px">[2025.08.07]</span>
       <a href="https://www.bilibili.com/video/BV1mh9NYvED7/" target="_blank">[video] MoBA：基于MoE的sparse block attention</a>
     </li>
+    <li><span style="color: gray" size="6px">[2025.08.12]</span>
+      <a href="https://openreview.net/forum?id=RkRrPp7GKO" target="_blank">[paper] H2O: Heavy-Hitter Oracle for Efficient Generative Inference of Large Language Models</a>
+    </li>
+    <li><span style="color: gray" size="6px">[2025.08.12]</span>
+      <a href="https://proceedings.neurips.cc/paper_files/paper/2024/hash/d842425e4bf79ba039352da0f658a906-Abstract-Conference.html" target="_blank">[paper] InfLLM: Training-Free Long-Context Extrapolation for LLMs with an Efficient Context Memory</a>
+    </li>
   </ul>
 
   <h2 id="cuda_notes">CUDA Notes</h2>
@@ -89,34 +102,42 @@
     <li><span style="color: gray" size="6px">[2025.07.27]</span>
       <a href="https://zhuanlan.zhihu.com/p/697228676" target="_blank">ldmatrix指令的详细解释</a>
     </li>
+    <li><span style="color: gray" size="6px">[2025.08.11]</span>
+      <a href="https://arxiv.org/abs/2507.04786" target="_blank">[paper] Demystifying NCCL: An In-depth Analysis of GPU Communication Protocols and Algorithms</a>
+    </li>
   </ul>
 
 
   <h2 id="low-bit">Low Bit training</h2>
   <p></p>
-  <h3 id="low-bit-paper">paper</h3>
   <ul>
     <li><span style="color: gray" size="6px">[2025.07.21]</span>
-      <a href="https://arxiv.org/abs/2410.19313" target="_blank">COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training</a>
+      <a href="https://arxiv.org/abs/2410.19313" target="_blank">[paper] COAT: Compressing Optimizer states and Activation for Memory-Efficient FP8 Training</a>
     </li>
     <li><span style="color: gray" size="6px">[2025.07.22]</span>
-      <a href="https://arxiv.org/abs/2309.01507" target="_blank">Memory Efficient Optimizers with 4-bit States</a>
+      <a href="https://arxiv.org/abs/2309.01507" target="_blank">[paper] Memory Efficient Optimizers with 4-bit States</a>
+    </li>
+    <li><span style="color: gray" size="6px">[2025.07.26]</span>
+      <a href="https://chatgpt.com/c/68843f2b-d86c-832b-8ef1-7c3488614b60" target="_blank">[chat] 混合精度训练流程以及master weight</a>
+    </li>
+    <li><span style="color: gray" size="6px">[2025.08.21]</span>
+      <a href="https://arxiv.org/pdf/2508.05571" target="_blank">[paper] iFairy: the First 2-bit Complex LLM with All Parameters in {±1, ±i}</a>
     </li>
   </ul>
 
-  <h3 id="low-bit-contents">Contents</h3>
-  <ul>
-    <li><span style="color: gray" size="6px">[2025.07.26]</span>
-      <a href="https://chatgpt.com/c/68843f2b-d86c-832b-8ef1-7c3488614b60" target="_blank">混合精度训练流程以及master weight</a>
-    </li>
-  </ul>
 
   <h2 id="technique">Technique</h2>
   <p></p>
+  <h3 id="profiler">Profiler</h3>
+  <ul>
+    <li><span style="color: gray" size="6px">[2025.07.21]</span>
+      <a href="https://zhuanlan.zhihu.com/p/721888112" target="_blank">[zhihu] 性能分析 torch.profiler</a>
+    </li>
+  </ul>
   <h3 id="docker">Docker</h3>
   <ul>
     <li><span style="color: gray" size="6px">[2025.07.21]</span>
-      <a href="https://chatgpt.com/c/68771c87-5a2c-8002-83d5-3f0c95fc3227" target="_blank">Docker 相关命令</a>
+      <a href="https://chatgpt.com/c/68771c87-5a2c-8002-83d5-3f0c95fc3227" target="_blank">[chat] Docker 相关命令</a>
     </li>
   </ul>
   
@@ -133,7 +154,27 @@
   <h3 id="git">Git</h3>
   <ul>
     <li><span style="color: gray" size="6px">[2025.07.22]</span>
-      <a href="https://chatgpt.com/c/688b2d9a-a83c-832e-9f27-2f35320c8eb8">Git check PR before merge</a>
+      <a href="https://chatgpt.com/c/688b2d9a-a83c-832e-9f27-2f35320c8eb8">[chat] Git check PR before merge</a>
+    </li>
+    <li><span style="color: gray" size="6px">[2025.08.22]</span>
+      <a href="https://chatgpt.com/c/68a815c2-b99c-832d-8e4a-7c13335ab5b8">[chat] Git .gitattributes 文件作用</a>
+    </li>
+
+  </ul>
+
+  <h3 id="pixi">pixi</h3>
+  <p>
+    <ul>
+      <li>export PIXI_CACHE_DIR=/path/to/your/pixi-cache</li>
+    </ul>
+  </p>
+
+  <ul>
+    <li><span style="color: gray" size="6px">[2025.08.22]</span>
+      <a href="https://pixi.sh/v0.53.0/#available-software">pixi 主页</a>
+    </li>
+    <li><span style="color: gray" size="6px">[2025.08.22]</span>
+      <a href="https://chatgpt.com/c/68a80cfd-4df4-832c-ac71-245c74b4d2db">[chat] pixi 介绍</a>
     </li>
 
   </ul>
